@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+# 🌾 Welcome to Erkalapai 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Erkalapai** is an AI-powered agricultural assistant app built with **React Native (Expo)** and **Flask**, designed to provide intelligent crop, pesticide, and fertilizer recommendations to farmers. The app also supports multilingual guidance, offline functionality, real-time farm logs, and price tracking of agricultural products.
 
-## Get started
+🔗 **Live Web Version:** [https://erkalapai.vercel.app](https://erkalapai.vercel.app)
 
-1. Install dependencies
+---
+
+## 🚀 Get Started
+
+1. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Start the app**
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+You can run the app using:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go) — a sandbox for quick app testing
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+You can begin development by editing files in the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🧠 Project Highlights
+
+- 🌱 **Crop Recommendation** using Random Forest
+- 🐛 **Pesticide Suggestion** via MobileNetV2 + image classification
+- 💧 **Fertilizer Guidance** with feature fusion (image + soil data)
+- 📊 **Price Visualization** for crops, vegetables, and fruits
+- 🧑‍🌾 **Farmer Logs** tracking monthly usage
+- 🗣️ **Multilingual Support** for regional users
+- 📴 **Offline Functionality** with SMS & RDS alerts
+- 🆘 **Emergency Reporting** with image and text-based help requests
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React Native (Expo), Tailwind CSS
+- **Backend:** Flask + Flask-SQLAlchemy + MongoDB Atlas
+- **ML Models:** Random Forest, MobileNetV2, Custom CNNs
+- **Database:** MongoDB Atlas
+- **Alerts:** Twilio SMS API, RDS Broadcast
+- **Deployment:** Vercel (Web), Expo (Mobile)
+
+---
+
+## 🧼 Reset the Project
+
+To clean the starter code and begin fresh:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This will move the starter to **app-example** and give you a clean **app** folder.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📚 Learn More
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [Expo documentation](https://docs.expo.dev/)
+- [Expo tutorial](https://docs.expo.dev/tutorial/introduction/)
+- [Erkalapai Web App](https://erkalapai.vercel.app)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 💬 Join the Community
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo on GitHub](https://github.com/expo/expo)
+- [Expo Discord](https://chat.expo.dev)
